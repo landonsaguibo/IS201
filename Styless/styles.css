@@ -1,0 +1,56 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('background.jpg'); /* Add your background image */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+header, footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #6c757d;
+    color: #ffffff;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+main {
+    margin-top: 20px;
+}
+
+h1, h2 {
+    color: #007bff;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+#images img {
+    width: 100%; /* Responsive image */
+    max-width: 600px; /* Limit max width */
+    display: block;
+    margin: 0 auto;
+}
+
+iframe {
+    display: block;
+    margin: 20px auto;
+}
+
+footer a {
+    color: #007bff;
+    text-decoration: none;
+}
